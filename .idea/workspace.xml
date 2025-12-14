@@ -4,55 +4,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33326703-5814-42a7-a419-ad94a4ad1158" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/AndroidProjectSystem.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/deploymentTargetSelector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/deviceManager.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/migrations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/androidTest/java/com/androidmate/fridgeinventoryapp12/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/app/src/test/java/com/androidmate/fridgeinventoryapp12/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/gradle/libs.versions.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp12/settings.gradle" beforeDir="false" />
+    <list default="true" id="e9f5ef97-794c-4bce-9605-7eab0b55f9cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FridgeInventoryApp2.0/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/FirebaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FridgeInventoryApp2.0/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/ItemMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FridgeInventoryApp2.0/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FridgeInventoryApp2.0/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/RecipeIngredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FridgeInventoryApp2.0/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FridgeInventoryApp2.0/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/UserItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp2.0/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FridgeInventoryApp2.0/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FridgeInventoryApp2.0/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FridgeInventoryApp2.0/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,26 +30,31 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="36j1sE7a6ujQFiuTyEX6GZQEyAm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/irfan/OneDrive/Documents/GitHub/PM-Fridge-Invetory-App&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/irfan/OneDrive/Documents/GitHub/PM-Fridge-Invetory-App",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="33326703-5814-42a7-a419-ad94a4ad1158" name="Changes" comment="" />
+      <changelist id="e9f5ef97-794c-4bce-9605-7eab0b55f9cc" name="Changes" comment="" />
       <created>1765505371547</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
