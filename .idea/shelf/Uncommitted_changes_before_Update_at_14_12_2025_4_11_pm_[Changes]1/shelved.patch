@@ -1,0 +1,219 @@
+Index: FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/RecipeIngredient.java
+===================================================================
+diff --git a/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/RecipeIngredient.java b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/RecipeIngredient.java
+new file mode 100644
+--- /dev/null	
++++ b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/RecipeIngredient.java	
+@@ -0,0 +1,36 @@
++package com.example.fridgeinventoryapp12.models;
++
++public class RecipeIngredient {
++    private String recipe_ingredients_id;
++    private String recipe_id;
++    private String item_id;
++    private int ingredient_quantity;
++    private String ingredient_unit;
++
++    public RecipeIngredient() {} // Required for Firestore
++
++    public RecipeIngredient(String id, String recipe_id, String item_id,
++                            int quantity, String unit) {
++        this.recipe_ingredients_id = id;
++        this.recipe_id = recipe_id;
++        this.item_id = item_id;
++        this.ingredient_quantity = quantity;
++        this.ingredient_unit = unit;
++    }
++
++    // Getters and Setters
++    public String getRecipe_ingredients_id() { return recipe_ingredients_id; }
++    public void setRecipe_ingredients_id(String id) { this.recipe_ingredients_id = id; }
++
++    public String getRecipe_id() { return recipe_id; }
++    public void setRecipe_id(String id) { this.recipe_id = id; }
++
++    public String getItem_id() { return item_id; }
++    public void setItem_id(String id) { this.item_id = id; }
++
++    public int getIngredient_quantity() { return ingredient_quantity; }
++    public void setIngredient_quantity(int qty) { this.ingredient_quantity = qty; }
++
++    public String getIngredient_unit() { return ingredient_unit; }
++    public void setIngredient_unit(String unit) { this.ingredient_unit = unit; }
++}
+\ No newline at end of file
+Index: FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/Recipe.java
+===================================================================
+diff --git a/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/Recipe.java b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/Recipe.java
+new file mode 100644
+--- /dev/null	
++++ b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/Recipe.java	
+@@ -0,0 +1,30 @@
++package com.example.fridgeinventoryapp12.models;
++
++public class Recipe {
++    private String recipe_id;
++    private String user_id;
++    private String recipe_name;
++    private String recipe_instruction;
++
++    public Recipe() {} // Required for Firestore
++
++    public Recipe(String recipe_id, String user_id, String name, String instruction) {
++        this.recipe_id = recipe_id;
++        this.user_id = user_id;
++        this.recipe_name = name;
++        this.recipe_instruction = instruction;
++    }
++
++    // Getters and Setters
++    public String getRecipe_id() { return recipe_id; }
++    public void setRecipe_id(String id) { this.recipe_id = id; }
++
++    public String getUser_id() { return user_id; }
++    public void setUser_id(String id) { this.user_id = id; }
++
++    public String getRecipe_name() { return recipe_name; }
++    public void setRecipe_name(String name) { this.recipe_name = name; }
++
++    public String getRecipe_instruction() { return recipe_instruction; }
++    public void setRecipe_instruction(String instruction) { this.recipe_instruction = instruction; }
++}
+\ No newline at end of file
+Index: FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/ItemMaster.java
+===================================================================
+diff --git a/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/ItemMaster.java b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/ItemMaster.java
+new file mode 100644
+--- /dev/null	
++++ b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/ItemMaster.java	
+@@ -0,0 +1,36 @@
++package com.example.fridgeinventoryapp12.models;
++
++public class ItemMaster {
++    private String item_id;
++    private String item_code;
++    private String item_name;
++    private String item_category;
++    private int item_default_shelf_life;
++
++    public ItemMaster() {} // Required for Firestore
++
++    public ItemMaster(String item_id, String item_code, String item_name,
++                      String category, int shelf_life) {
++        this.item_id = item_id;
++        this.item_code = item_code;
++        this.item_name = item_name;
++        this.item_category = category;
++        this.item_default_shelf_life = shelf_life;
++    }
++
++    // Getters and Setters
++    public String getItem_id() { return item_id; }
++    public void setItem_id(String id) { this.item_id = id; }
++
++    public String getItem_code() { return item_code; }
++    public void setItem_code(String code) { this.item_code = code; }
++
++    public String getItem_name() { return item_name; }
++    public void setItem_name(String name) { this.item_name = name; }
++
++    public String getItem_category() { return item_category; }
++    public void setItem_category(String category) { this.item_category = category; }
++
++    public int getItem_default_shelf_life() { return item_default_shelf_life; }
++    public void setItem_default_shelf_life(int days) { this.item_default_shelf_life = days; }
++}
+\ No newline at end of file
+Index: FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/UserItem.java
+===================================================================
+diff --git a/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/UserItem.java b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/UserItem.java
+new file mode 100644
+--- /dev/null	
++++ b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/UserItem.java	
+@@ -0,0 +1,52 @@
++package com.example.fridgeinventoryapp12.models;
++
++public class UserItem {
++    private String user_items_id;
++    private String user_id;
++    private String item_id;
++    private int user_items_quantity;
++    private String user_items_unit;
++    private String user_items_expiry_date;
++    private long user_items_added_at;
++    private String user_items_status;
++
++    public UserItem() {} // Required for Firestore
++
++    public UserItem(String user_items_id, String user_id, String item_id,
++                    int quantity, String unit, String expiry_date,
++                    long added_at, String status) {
++        this.user_items_id = user_items_id;
++        this.user_id = user_id;
++        this.item_id = item_id;
++        this.user_items_quantity = quantity;
++        this.user_items_unit = unit;
++        this.user_items_expiry_date = expiry_date;
++        this.user_items_added_at = added_at;
++        this.user_items_status = status;
++    }
++
++    // Getters and Setters
++    public String getUser_items_id() { return user_items_id; }
++    public void setUser_items_id(String id) { this.user_items_id = id; }
++
++    public String getUser_id() { return user_id; }
++    public void setUser_id(String id) { this.user_id = id; }
++
++    public String getItem_id() { return item_id; }
++    public void setItem_id(String id) { this.item_id = id; }
++
++    public int getUser_items_quantity() { return user_items_quantity; }
++    public void setUser_items_quantity(int qty) { this.user_items_quantity = qty; }
++
++    public String getUser_items_unit() { return user_items_unit; }
++    public void setUser_items_unit(String unit) { this.user_items_unit = unit; }
++
++    public String getUser_items_expiry_date() { return user_items_expiry_date; }
++    public void setUser_items_expiry_date(String date) { this.user_items_expiry_date = date; }
++
++    public long getUser_items_added_at() { return user_items_added_at; }
++    public void setUser_items_added_at(long time) { this.user_items_added_at = time; }
++
++    public String getUser_items_status() { return user_items_status; }
++    public void setUser_items_status(String status) { this.user_items_status = status; }
++}
+\ No newline at end of file
+Index: FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/User.java
+===================================================================
+diff --git a/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/User.java b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/User.java
+new file mode 100644
+--- /dev/null	
++++ b/FridgeInventoryApp12/app/src/main/java/com/androidmate/fridgeinventoryapp12/models/User.java	
+@@ -0,0 +1,25 @@
++package com.example.fridgeinventoryapp12.models;
++
++public class User {
++    private String user_id;
++    private String user_name;
++    private String user_email;
++
++    public User() {} // Required for Firestore
++
++    public User(String user_id, String user_name, String user_email) {
++        this.user_id = user_id;
++        this.user_name = user_name;
++        this.user_email = user_email;
++    }
++
++    // Getters and Setters
++    public String getUser_id() { return user_id; }
++    public void setUser_id(String user_id) { this.user_id = user_id; }
++
++    public String getUser_name() { return user_name; }
++    public void setUser_name(String user_name) { this.user_name = user_name; }
++
++    public String getUser_email() { return user_email; }
++    public void setUser_email(String user_email) { this.user_email = user_email; }
++}
+\ No newline at end of file
